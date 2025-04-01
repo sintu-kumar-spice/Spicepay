@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <listeners>
+    <!-- Add the ExtentReportListener -->
+    <listener class-name="com.spicepay.reports.ExtentReportListener"/>
+  </listeners>
+  
+  <test name="Test" >
+    <classes>
+       <class name="com.spicepay.config.TestBase"/>
+ <!-- <class name="com.spicepay.tests.YourTest"/> --> 
+ <!--<class name="com.spicepay.tests.SidebarTest"/> --> 
+<class name="com.spicepay.tests.Addmoney"/> 
+<!--<class name="com.spicepay.tests.WithdrawcashTest"/> --> 
+<!--<class name="com.spicepay.tests.SendMoneyToMobile"/>  -->
+ <!--<class name="com.spicepay.tests.Bbpsfastag"/> --> 
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
